@@ -1,20 +1,1370 @@
-/*
-TAGS
-*/
-body {
+
+/*MOBILE PORTRAIT*/
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+	/*  TAGS  */
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		/*https://codepen.io/daviddarnes/pen/OgaRYw*/
+		h2 {
+			text-decoration: underline wavy;
+			text-decoration-color: #ffc823;
+		}
+
+		blockquote {
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
+
+	/*  CLASS  */
 	
+		.navbar-color {
+			background-color: #DF3243;
+		}
+
+		.background-red {
+			background-color: #F35867;
+		}
+
+		.background-orange {
+			background-color: #E77E34;
+		}
+
+		.background-blue {
+			background-color: #209181;
+		}
+
+		.background-green {
+			background-color: #63D24C;
+		}
+
+		.background-green-light{
+			background-color: #89E176;
+		}
+
+		.text-red {
+			color: #DF3243 !important;
+		}
+
+		.text-red-light {
+			color: #F9828D !important;
+		}
+
+		.text-orange {
+			color: #E77E34 !important;
+		}
+
+		.text-orange-light {
+			color: #FFB886 !important;
+		}
+
+		.text-blue {
+			color: #209181 !important;
+		}
+
+		.text-blue-light {
+			color: #63BCB0 !important;
+		}
+
+		.text-green {
+			color: #63D24C !important;
+		}
+
+		.text-green-light {
+			color: #89E176 !important;
+		}
+
+		.color-red {
+			color: #DF3243;
+		}
+
+		.color-red-light {
+			color: #F9828D;
+		}
+
+		.color-red-midlight {
+			color: #F35867;
+		}
+
+		.color-red-middark {
+			color: #BD1323;
+		}
+
+		.color-red-dark {
+			color: #960311;
+		}
+
+		.color-orange {
+			color: #E77E34;
+		}
+
+		.color-orange-light {
+			color: #FFB886;
+		}
+
+		.color-orange-midlight {
+			color: #FB9D5B;
+		}
+
+		.color-orange-middark {
+			color: #C45D14;
+		}
+
+		.color-orange-dark {
+			color: #9C4203;
+		}
+
+		.color-blue {
+			color: #209181;
+		}
+
+		.color-blue-light {
+			color: #63BCB0;
+		}
+
+		.color-blue-midlight {
+			color: #399E90;
+		}
+
+		.color-blue-middark {
+			color: #0C7B6C;
+		}
+
+		.color-blue-dark {
+			color: #026255;
+		}
+
+		.color-green {
+			color: #45C12B;
+		}
+
+		.color-green-light {
+			color: #89E176;
+		}
+
+		.color-green-midlight {
+			color: #63D24C;
+		}
+
+		.color-green-middark {
+			color: #2AA310;
+		}
+
+		.color-green-dark {
+			color: #188202;
+		}
+
+
+		.transparent {
+			opacity: 0.5;
+			filter: alpha(opacity=50);
+		}
+
+		.overflow-auto {
+			overflow: auto;
+		}
+
+		.throw-bottom {
+			vertical-align:bottom;
+			border:0;
+		}
+
+		.jarallax {
+			position: relative;
+			z-index: 0;
+		}
+
+		.jarallax > .jarallax-img {
+			position: absolute;
+			object-fit: cover;
+			/* support for plugin https://github.com/bfred-it/object-fit-images */
+			font-family: 'object-fit: cover;', serif;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+		}
+
+		.navbar-inner {
+			background:transparent;
+		}
+
+		.the-problem {
+			background-color: #DF3244;
+			padding-top: 7vh;
+			height: 80vh;
+			margin-bottom: 0;
+		}
+
+		.our-solution {
+			background-color: #FF9900;
+			padding-top: 7vh;
+			height: 110vh;
+		}
+
+		.overflow-hidden {
+			overflow: hidden;
+		}
+
+		.conclusion {
+			background-color: #FFC166;
+			margin-top: -40vh;
+			padding-top: 7vh;
+			height: 90vh;
+		}
+
+		.splash {
+			height: 100vh;
+			width: 100%;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			position: relative;
+			/*background-color: #E4FFD9;*/
+			/*background-color: #DF3244;*/
+			background-color: #DF3243;
+		}
+
+		.idcard {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding: 3em 5em;
+
+		}
+
+		.idphoto {
+			margin-bottom: 1em;
+		}
+
+		.educard {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding: 3em 2em;
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
+
+		.educard:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
+		}
+
+		.eduimg {
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
+
+		.eduimg:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
+		}
+
+
+
+		.tcontainer a {
+			font-weight: bold;
+			color: darkslateblue;
+		}
+
+		/* The actual timeline (the vertical ruler) */
+		.timeline {
+			position: relative;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		/* The circles on the timeline */
+		.tcontainer::after {
+			content: '';
+			position: absolute;
+			width: 25px;
+			height: 25px;
+			right: -17px;
+			background-color: white;
+			border: 4px solid #209181;
+			top: 15px;
+			border-radius: 50%;
+			z-index: 1;
+		}
+
+		.centerdiv {
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		}
+
+		/* Place the container to the left */
+		.left {
+			left: 0;
+		}
+
+		/* Place the container to the right */
+		.right {
+			left: 50%;
+		}
+
+		/* Add arrows to the left container (pointing right) */
+		.left::before {
+			content: " ";
+			height: 0;
+			position: absolute;
+			top: 17px;
+			width: 0;
+			z-index: 1;
+			right: 30px;
+			border-width: 10px 0 10px 10px;
+			border-color: transparent transparent transparent white;
+		}
+
+		/* Add arrows to the right container (pointing left) */
+		.right::before {
+			content: " ";
+			height: 0;
+			position: absolute;
+			top: 18px;
+			width: 0;
+			z-index: 1;
+			left: 30px;
+			border-width: 10px 10px 10px 0;
+			border-color: transparent white transparent white;
+		}
+
+		/* The actual content */
+		.content {
+			padding: 20px 30px;
+			/*background-color: white;*/
+			color: white;
+			position: relative;
+			border-radius: 6px;
+		}
+
+		.timeline::after {
+			left: 31px;
+		}
+
+		/* Full-width containers */
+		.tcontainer {
+			width: 100%;
+			padding-left: 70px;
+			padding-right: 25px;
+		}
+
+		/* Make sure that all arrows are pointing leftwards */
+		.tcontainer::before {
+			left: 60px;
+			border-width: 10px 10px 10px 0;
+			border-color: transparent white transparent transparent;
+		}
+
+		/* Make sure all circles are at the same spot */
+		.left::after, .right::after {
+			left: 15px;
+		}
+
+		/* Make all right containers behave like the left ones */
+		.right {
+			left: 0;
+		}
+
+		.carousel {
+		  width:800px;
+		  height:450px;
+		}
+
+	/*  ID  */
+
+		#splashImage {
+			padding-top: 12vh;
+			padding-bottom: 2vh;
+			width: 40vw;
+		}
+
+		#project-title {
+			color: #809D76;
+		}
+
+		#project-subtitle {
+			color: #809D76;
+		}
+
+		#footer {
+			background-color:  #FFC166;
+		}
+
+		#redContainer {
+			background-color: #DF3244;
+		}
+
+		#orangeContainer {
+			background-color: #FF9900;
+		}
+
+		#creamContainer {
+			background-color: #FFC166;
+		}
+
+		#indexnav {
+			background-color: #E4FFD9;
+		}
+
+		#teambody {
+			background-image: url("../images/team_background_extended.jpg");
+			background-size: auto;
+		}
 }
 
-/*
-CLASS
-*/
-.example{
+/*MOBILE LANDSCAPE*/
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+	/*  TAGS  */
+		body {
+			margin: 0 0 0;
+			padding: 0;
+		}
 
+		/*https://codepen.io/daviddarnes/pen/OgaRYw*/
+		h2 {
+			text-decoration: underline wavy;
+			text-decoration-color: #ffc823;
+		}
+
+		blockquote {
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
+
+	/*  CLASS  */
+		.imgbuttion {
+			background-color: #DF3243;
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 16px;
+		}
+
+		.navbar-color {
+			background-color: #DF3243;
+		}
+
+		.background-red {
+			background-color: #F35867;
+		}
+
+		.background-orange {
+			background-color: #E77E34;
+		}
+
+		.background-blue {
+			background-color: #209181;
+		}
+
+		.background-green {
+			background-color: #63D24C;
+		}
+
+		.background-green-light{
+			background-color: #89E176;
+		}
+
+		.text-red {
+			color: #DF3243 !important;
+		}
+
+		.text-red-light {
+			color: #F9828D !important;
+		}
+
+		.text-orange {
+			color: #E77E34 !important;
+		}
+
+		.text-orange-light {
+			color: #FFB886 !important;
+		}
+
+		.text-blue {
+			color: #209181 !important;
+		}
+
+		.text-blue-light {
+			color: #63BCB0 !important;
+		}
+
+		.text-green {
+			color: #63D24C !important;
+		}
+
+		.text-green-light {
+			color: #89E176 !important;
+		}
+
+		.color-red {
+			color: #DF3243;
+		}
+
+		.color-red-light {
+			color: #F9828D;
+		}
+
+		.color-red-midlight {
+			color: #F35867;
+		}
+
+		.color-red-middark {
+			color: #BD1323;
+		}
+
+		.color-red-dark {
+			color: #960311;
+		}
+
+		.color-orange {
+			color: #E77E34;
+		}
+
+		.color-orange-light {
+			color: #FFB886;
+		}
+
+		.color-orange-midlight {
+			color: #FB9D5B;
+		}
+
+		.color-orange-middark {
+			color: #C45D14;
+		}
+
+		.color-orange-dark {
+			color: #9C4203;
+		}
+
+		.color-blue {
+			color: #209181;
+		}
+
+		.color-blue-light {
+			color: #63BCB0;
+		}
+
+		.color-blue-midlight {
+			color: #399E90;
+		}
+
+		.color-blue-middark {
+			color: #0C7B6C;
+		}
+
+		.color-blue-dark {
+			color: #026255;
+		}
+
+		.color-green {
+			color: #45C12B;
+		}
+
+		.color-green-light {
+			color: #89E176;
+		}
+
+		.color-green-midlight {
+			color: #63D24C;
+		}
+
+		.color-green-middark {
+			color: #2AA310;
+		}
+
+		.color-green-dark {
+			color: #188202;
+		}
+
+		.transparent {
+			opacity: 0.5;
+			filter: alpha(opacity=50);
+		}
+
+		.overflow-auto {
+			overflow: auto;
+		}
+
+		.throw-bottom {
+			vertical-align:bottom;
+			border:0;
+		}
+
+		.jarallax {
+			position: relative;
+			z-index: 0;
+		}
+
+		.jarallax > .jarallax-img {
+			position: absolute;
+			object-fit: cover;
+			font-family: 'object-fit: cover;', serif;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+		}
+
+
+		.the-problem {
+			background-color: #DF3244;
+			padding-top: 7vh;
+			height: 100vh;
+			margin-bottom: 0;
+		}
+
+
+		.our-solution {
+			background-color: #FF9900;
+			padding-top: 7vh;
+			height: 120vh;
+		}
+
+		.overflow-hidden {
+			overflow: hidden;
+		}
+
+		.conclusion {
+			background-color: #FFC166;
+			margin-top: -55vh;
+			padding-top: 7vh;
+			height: 90vh;
+		}
+
+		.splash {
+			height: 100vh;
+			width: 100%;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			position: relative;
+			/*background-color: #E4FFD9;*/
+			background-color: #DF3243;
+		}
+
+		.idcard {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding: 3em 5em;
+
+		}
+
+		.idphoto {
+			margin-bottom: 1em;
+		}
+
+		.educard {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding: 3em 5em;
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
+
+		.educard:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
+		}
+
+		.eduimg {
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
+
+		.eduimg:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
+		}
+
+		.tcontainer a {
+			font-weight: bold;
+			color: darkslateblue;
+		}
+
+		/* The actual timeline (the vertical ruler) */
+		.timeline {
+			position: relative;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		/* The actual timeline (the vertical ruler) */
+		.timeline::after {
+			content: '';
+			position: absolute;
+			width: 6px;
+			background-color: white;
+			top: 0;
+			bottom: 0;
+			left: 50%;
+			margin-left: -3px;
+		}
+
+		/* Container around content */
+		.tcontainer {
+			padding: 10px 40px;
+			position: relative;
+			/*background-color: inherit;*/
+			width: 50%;
+		}
+
+		/* The circles on the timeline */
+		.tcontainer::after {
+			content: '';
+			position: absolute;
+			width: 25px;
+			height: 25px;
+			right: -17px;
+			background-color: white;
+			border: 4px solid #209181;
+			top: 15px;
+			border-radius: 50%;
+			z-index: 1;
+		}
+
+		/* Place the container to the left */
+		.left {
+			left: 0;
+		}
+
+		/* Place the container to the right */
+		.right {
+			left: 50%;
+		}
+
+		/* Add arrows to the left container (pointing right) */
+		.left::before {
+			content: " ";
+			height: 0;
+			position: absolute;
+			top: 17px;
+			width: 0;
+			z-index: 1;
+			right: 30px;
+			border-width: 10px 0 10px 10px;
+			border-color: transparent transparent transparent white;
+		}
+
+		/* Add arrows to the right container (pointing left) */
+		.right::before {
+			content: " ";
+			height: 0;
+			position: absolute;
+			top: 18px;
+			width: 0;
+			z-index: 1;
+			left: 30px;
+			border-color: transparent white transparent white;
+		}
+
+		/* Fix the circle for containers on the right side */
+		.right::after {
+			left: -12px;
+		}
+
+		.left::after {
+			right: -13px;
+		}
+
+		/* The actual content */
+		.content {
+			padding: 20px 30px;
+			/*background-color: white;*/
+			color: white;
+			position: relative;
+			border-radius: 6px;
+		}
+
+		.carousel {
+		  width:800px;
+		  height:450px;}
+
+		.centerdiv {
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		}
+
+	/*  ID  */
+
+		#splashImage {
+			padding-top: 10vh;
+			padding-bottom: 2vh;
+			width: 15vw;
+		}
+
+		#project-title {
+			color: #809D76;
+		}
+
+		#project-subtitle {
+			color: #809D76;
+		}
+
+		#footer {
+			background-color:  #FFC166;
+		}
+
+		#redContainer {
+			background-color: #DF3244;
+		}
+
+		#orangeContainer {
+			background-color: #FF9900;
+		}
+
+		#indexnav {
+			background-color: #E4FFD9;
+		}
+
+		#teambody {
+			background-image: url("../images/team_background_extended.jpg");
+			background-size: cover;
+		}
 }
 
-/*
-ID
-*/
-#example {
+/*DESKTOP OR TABLET*/
+@media only screen and (min-width: 737px) {
+	/*  TAGS  */
 
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		/*https://codepen.io/daviddarnes/pen/OgaRYw*/
+		h2 {
+			text-decoration: none;
+			position: relative;
+			padding-bottom: .5em;
+			overflow: hidden;
+			
+		}
+
+		blockquote {
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
+
+	/*  CLASS  */
+
+		.navbar-color {
+			background-color: #DF3243;
+		}
+
+		.background-red {
+			background-color: #DF3243;
+		}
+
+		.background-orange {
+			background-color: #E77E34;
+		}
+
+		.background-blue {
+			background-color: #209181;
+		}
+
+		.background-green {
+			background-color: #63D24C;
+		}
+
+		.background-green-light{
+			background-color: #89E176;
+		}
+
+		.text-red {
+			color: #DF3243 !important;
+		}
+
+		.text-red-light {
+			color: #F9828D !important;
+		}
+
+		.text-orange {
+			color: #E77E34 !important;
+		}
+
+		.text-orange-light {
+			color: #FFB886 !important;
+		}
+
+		.text-blue {
+			color: #209181 !important;
+		}
+
+		.text-blue-light {
+			color: #63BCB0 !important;
+		}
+
+		.text-green {
+			color: #63D24C !important;
+		}
+
+		.text-green-light {
+			color: #89E176 !important;
+		}
+
+		.color-red {
+			color: #DF3243;
+		}
+
+		.color-red-light {
+			color: #F9828D;
+		}
+
+		.color-red-midlight {
+			color: #F35867;
+		}
+
+		.color-red-middark {
+			color: #BD1323;
+		}
+
+		.color-red-dark {
+			color: #960311;
+		}
+
+		.color-orange {
+			color: #E77E34;
+		}
+
+		.color-orange-light {
+			color: #FFB886;
+		}
+
+		.color-orange-midlight {
+			color: #FB9D5B;
+		}
+
+		.color-orange-middark {
+			color: #C45D14;
+		}
+
+		.color-orange-dark {
+			color: #9C4203;
+		}
+
+		.color-blue {
+			color: #209181;
+		}
+
+		.color-blue-light {
+			color: #63BCB0;
+		}
+
+		.color-blue-midlight {
+			color: #399E90;
+		}
+
+		.color-blue-middark {
+			color: #0C7B6C;
+		}
+
+		.color-blue-dark {
+			color: #026255;
+		}
+
+		.color-green {
+			color: #45C12B;
+		}
+
+		.color-green-light {
+			color: #89E176;
+		}
+
+		.color-green-midlight {
+			color: #63D24C;
+		}
+
+		.color-green-middark {
+			color: #2AA310;
+		}
+
+		.color-green-dark {
+			color: #188202;
+		}
+
+		.transparent {
+			opacity: 0.5;
+			filter: alpha(opacity=50);
+		}
+		.overflow-auto {
+			overflow: auto;
+		}
+
+		.throw-bottom {
+			vertical-align:bottom;
+			border:0;
+		}
+
+		.jarallax {
+			position: relative;
+			z-index: 0;
+		}
+
+		.jarallax > .jarallax-img {
+			position: absolute;
+			object-fit: cover;
+			/* support for plugin https://github.com/bfred-it/object-fit-images */
+			font-family: 'object-fit: cover;', serif;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+		}
+
+
+		.the-problem {
+			background-color: #DF3244;
+			padding-top: 5vh;
+			height: 30vh;
+			margin-bottom: 0;
+		}
+
+		.our-solution {
+			background-color: #E77E34;
+			padding-top: 5vh;
+			height: 50vh;
+			margin-bottom: 0;
+		}
+
+		.overflow-hidden {
+			overflow: hidden;
+		}
+
+		.conclusion {
+			background-color: #209181;
+			margin-top: -18vh;
+			padding-top: 5vh;
+			height: 50vh;
+			overflow: hidden;
+		}
+
+		.splash {
+			height: 100vh;
+			width: 100%;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			position: relative;
+			/*background-color: #E4FFD9;*/
+			/*background-color: #209181;background-color: #DF3244;*/
+			/*background-color: #209181;*/
+			background: #DF3243;
+
+		}
+
+		.radialg {
+			background: #d6249f;
+			background: radial-gradient(circle at 30% 107%, #DF3244 0%, #DF3244 5%, #fd5949 45%,#E77E34 60%,#209181 90%);
+		}
+
+		.wavy {
+			/*text-decoration-style:*/
+		}
+
+		.idcard {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding: 3em 5em;
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
+
+		.idcard:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
+		}
+
+		.idphoto {
+			margin-bottom: 1em;
+		}
+
+		.header-title {
+			margin-top: 3em;
+		}
+
+		.header-paragraph {
+			margin-bottom: 5em;
+		}
+
+		.educard {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding: 3em 5em;
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
+
+		.educard:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
+		}
+
+		.eduimg {
+			border-radius: 5px;
+			cursor: pointer;
+			transition: .8s;
+			margin-bottom: 1em;
+			max-width: 100%;
+		 	
+		}
+
+		.eduimg:hover {
+			transition: .5s;
+   			
+		}
+
+		.eduimgcontainer {
+			-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   			filter: grayscale(100%);
+   			transform: scale(1.00, 1.00);
+   			transition: .8s;
+		}
+
+		.eduimgcontainer:hover {
+			-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+			transform: scale(1.02, 1.02);
+   			filter: grayscale(0%);
+   			transition: .5s;
+		}
+
+	/* The Close Button */
+		.close {
+			position: absolute;
+			top: 15px;
+			right: 35px;
+			color: #f1f1f1;
+			font-size: 40px;
+			font-weight: bold;
+			transition: 0.3s;
+		}
+
+		.close:hover,
+		.close:focus {
+			color: #bbb;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		/* The emodal (background) */
+		.emodal {
+			display: none; /* Hidden by default */
+			position: fixed; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			padding-top: 100px; /* Location of the box */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			overflow: auto; /* Enable scroll if needed */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+		}
+
+		/* emodal Content (Image) */
+		.emodal-content {
+			margin: auto;
+			display: block;
+			width: 80%;
+			max-width: 700px;
+		}
+
+		.carousel {
+		  width:800px;
+		  height:450px;}
+
+		.tcontainer a {
+			font-weight: bold;
+			color: darkslateblue;
+		}
+
+		/* The actual timeline (the vertical ruler) */
+		.timeline {
+			position: relative;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		/* The actual timeline (the vertical ruler) */
+		.timeline::after {
+			content: '';
+			position: absolute;
+			width: 6px;
+			background-color: white;
+			top: 0;
+			bottom: 0;
+			left: 50%;
+			margin-left: -3px;
+		}
+
+		/* Container around content */
+		.tcontainer {
+			padding: 10px 40px;
+			position: relative;
+			/*background-color: inherit;*/
+			width: 50%;
+		}
+
+		/* The circles on the timeline */
+		.tcontainer::after {
+			content: '';
+			position: absolute;
+			width: 25px;
+			height: 25px;
+			right: -17px;
+			background-color: white;
+			border: 4px solid #209181;
+			top: 15px;
+			border-radius: 50%;
+			z-index: 1;
+		}
+
+		/* Place the container to the left */
+		.left {
+			left: 0;
+		}
+
+		/* Place the container to the right */
+		.right {
+			left: 50%;
+		}
+
+		/* Add arrows to the left container (pointing right) */
+		.left::before {
+			content: " ";
+			height: 0;
+			position: absolute;
+			top: 17px;
+			width: 0;
+			z-index: 1;
+			right: 30px;
+			border-width: 10px 0 10px 10px;
+			border-color: transparent transparent transparent white;
+		}
+
+		/* Add arrows to the right container (pointing left) */
+		.right::before {
+			content: " ";
+			height: 0;
+			position: absolute;
+			top: 18px;
+			width: 0;
+			z-index: 1;
+			left: 30px;
+			border-width: 10px 10px 10px 0;
+			border-color: transparent white transparent white;
+		}
+
+		/* Fix the circle for containers on the right side */
+		.right::after {
+			left: -12px;
+		}
+
+		.left::after {
+			right: -13px;
+		}
+
+		/* The actual content */
+		.content {
+			padding: 20px 30px;
+			/*background-color: white;*/
+			color: white;
+			position: relative;
+			border-radius: 6px;
+		}
+
+		.centerdiv {
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		    cursor: pointer;
+		}
+
+	/*  ID  */
+
+		#splashImage {
+			padding-top: 10vh;
+			padding-bottom: 2vh;
+			width: 15vw;
+		}
+
+		#project-title {
+			/*color: #809D76;*/
+		}
+
+		#project-subtitle {
+			/*color: #809D76;*/
+		}
+
+		#footer {
+			background-color:  #FFC166;
+		}
+
+		#redContainer {
+			background-color: #DF3243;
+		}
+
+		#orangeContainer {
+			background-color: #FF9900;
+		}
+
+		#indexnav {
+			background-color: #E4FFD9;
+		}
+
+		#teambody {
+			background-image: url("../images/team_background_extended.jpg");
+			background-size: cover 100%;
+		}
+
+		/* Caption of emodal Image (Image Text) - Same Width as the Image */
+		#caption {
+			margin: auto;
+			display: block;
+			width: 80%;
+			max-width: 700px;
+			text-align: center;
+			color: #ccc;
+			padding: 10px 0;
+			height: 150px;
+		}
+
+		#myBtn {
+			display: none; /* Hidden by default */
+			position: fixed;
+			bottom: 20px;
+			right: 30px;
+			z-index: 99;
+			border: none;
+			outline: none;
+			background-color: red;
+			color: white;
+			cursor: pointer;
+			padding: 15px;
+			border-radius: 10px;
+			font-size: 18px;
+		}
+
+		#myBtn:hover {
+			background-color: #555
+		}
 }
